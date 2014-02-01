@@ -1,7 +1,4 @@
 
-.container{
-margin-top:70px;
-}
 
 .btn-primary{
 width:21%;
@@ -19,14 +16,10 @@ li {
 text-decoration:none;
 list-style-type:none;
 }
-
-
-#linkseFeedback{
-
-width:49%;
+.container {
+    margin-top:50px;
 }
 
-#rechtFeedback{
-width:49%;
-
+body{
+    background-color:black;
 }
