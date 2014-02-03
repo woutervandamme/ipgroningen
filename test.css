@@ -1,18 +1,14 @@
 
 
 .btn-primary{
-width:21%;
 text-align:center;
 margin:20px;
-padding:100px;
+padding:70px;
+min-width:230px;
 }
 
-.alert-info{
-text-align:center;
-background-color:#007fff;
-}
 
-li {
+li{
 text-decoration:none;
 list-style-type:none;
 }
@@ -20,10 +16,4 @@ list-style-type:none;
     margin-top:100px;
 }
 
-.long-art{
-  background: url("images/NursingHeader4.jpg") no-repeat;
-    height:200px;
-      background-size: 1100px auto;
-
-}
 
