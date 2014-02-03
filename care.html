@@ -1,74 +1,117 @@
 <!DOCTYPE html>
 <!-- saved from url=(0050)http://getbootstrap.com/examples/starter-template/ -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="http://getbootstrap.com/assets/ico/favicon.ico">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="http://getbootstrap.com/assets/ico/favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <link href="http://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery.js"></script>
+<link href="http://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet">
 
-    <link href="test.css" rel="stylesheet">
+<link href="test.css" rel="stylesheet">
 </head>
 
-  <body style="">
+<body style="">
 
 
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle"
-                data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle
-                    navigation</span>
-                <span class="icon-bar"></span>
-                <span
-                    class="icon-bar"></span>
-                <span
-                    class="icon-bar"></span>
-            </button>
-            <a
-                class="navbar-brand"
-                href="index.html">Super Awesome Nusring App</a>
-        </div>
-        <div
-            class="navbar-collapse
-            collapse">
-            <ul
-                class="nav
-                navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                <li ><a href="info.html">Info</a></li>
-                <li><a href="medicin.html">Medicin</a></li>
-                <li><a href="treatment.html">Treatment</a></li>
-                  <li><a href="lifestyle.html">LifeStyle</a></li>
-                <li class="active"><a href="care.html">Careplan</a></li>
-                <li ><a href="agenda.html">Agenda</a></li>
-                <li><a  data-toggle="modal"
-                    data-target="#login">Menu</a></li>
-            </ul>
-        </div>
-
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle"
+            data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle
+                navigation</span>
+            <span class="icon-bar"></span>
+            <span
+                class="icon-bar"></span>
+            <span
+                class="icon-bar"></span>
+        </button>
+        <a
+            class="navbar-brand"
+            href="index.html">Super Awesome Nusring App</a>
+    </div>
+    <div
+        class="navbar-collapse
+        collapse">
+        <ul
+            class="nav
+            navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li ><a href="info.html">Info</a></li>
+            <li><a href="medicin.html">Medicin</a></li>
+            <li><a href="treatment.html">Treatment</a></li>
+            <li><a href="lifestyle.html">LifeStyle</a></li>
+            <li class="active"><a href="care.html">Careplan</a></li>
+            <li ><a href="agenda.html">Agenda</a></li>
+            <li><a  data-toggle="modal"
+                data-target="#login">Menu</a></li>
+        </ul>
     </div>
 
+</div>
 
-    <div class="container">
-        <img src="images/careplan.png">
-    </div><!-- /.container -->
+
+<div class="container">
+
+
+    <table class="table ">
+        <thead>
+            <tr>
+
+
+                <th>#</th>
+                <th>6:00</th>
+                <th>6:30</th>
+                <th>7:00</th>
+                <th>7:30</th>
+                <th>8:00</th>
+                <th>8:30</th>
+                <th>9:00</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        <script>
+var dagen = new Array();
+dagen[0] = "Monday";
+dagen[1] = "Tueday";
+dagen[2] = "Wednesday";
+dagen[3] = "Thursday";
+dagen[4] = "Friday";
+dagen[5] = "Saturday";
+dagen[6] = "Sunday";
+
+
+
+
+
+
+
+for(var i = 0; i < 7 ; i++ ){
+
+
+    document.write("  <tr><td>" + dagen[i] +"</td>  <td>Medicine</td> <td></td> "
+                +" <td></td> <td></td><td></td> <td>Medicine</td><td>Medicine</td> </tr>");
+
+}
+        </script>
+        </tbody>
+    </table>
+</div><!-- /.container -->
 
 <div class="modal fade" id="login" tabindex="-1" role="dialog"
     aria-labelledby="registreer" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-header">
         </div>
-            <div class="modal-body">
-                <h2>Something really good</h2>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div>
+        <div class="modal-body">
+            <h2>Something really good</h2>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
 </div>
 
 
