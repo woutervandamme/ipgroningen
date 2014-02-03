@@ -20,8 +20,10 @@ list-style-type:none;
     margin-top:100px;
 }
 
+.long-art{
+  background: url("images/NursingHeader4.jpg") no-repeat;
+    height:200px;
+      background-size: 1100px auto;
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-background-color: #007fff;
-border-color: #007fff;
 }
+
