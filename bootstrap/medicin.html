@@ -10,6 +10,7 @@
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <link href="http://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet">
+
     <link href="test.css" rel="stylesheet">
 </head>
 
@@ -17,7 +18,8 @@
 
 
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="navbar-header">
+
+    <div class="navbar-header">
             <button type="button" class="navbar-toggle"
                 data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle
@@ -38,14 +40,14 @@
             <ul
                 class="nav
                 navbar-nav">
-                    <li><a href="home.html">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li ><a href="info.html">Info</a></li>
-                <li><a href="medicin.html">Medicin</a></li>
+                <li class="active"><a href="#">Medicin</a></li>
                 <li><a href="treatment.html">Treatment</a></li>
-                  <li  class="active"><a href="lifestyle.html">LifeStyle</a></li>
-                <li ><a href="care.html">Timetable</a></li>
+                  <li><a href="lifestyle.html">LifeStyle</a></li>
+                <li ><a href="care.html">Careplan</a></li>
                 <li ><a href="feedback.html">Feedback</a></li>
-                                <li ><a href="menu.html">Menu</a></li>
+                                          <li ><a href="menu.html">Menu</a></li>
 
             </ul>
         </div>
@@ -54,13 +56,39 @@
 
 
     <div class="container">
-<div class="well">
-<p>no Smoke , no Drink , no Fun</p>
-</div>
+    <ul class="nav nav-tabs">
+            <li class="active"><a href="#time" data-toggle="tab">TimeTable</a></li>
+              <li><a href="#drugs" data-toggle="tab">Drugs</a></li>
+                <li><a href="#drugsInfo" data-toggle="tab">Drugs info</a></li>
+            </ul>
 
-<h1>Do excercises!!</h1>
-        
-  </div><!-- /.container -->
+            <div class="tab-content">
+                <div class="active tab-pane" id="time">
+                    <div class="well">
+                    <ul><li>6:00  take a nap</li>
+                    <li>7:00  take drugs</li>
+                    <li>8:00  take more drugs</li>
+                    <li>9:00  take even more drugs</li>
+                    </ul>
+                </div>
+                </div>
+                    <div class="tab-pane" id="drugs">
+
+                        <div class="well">
+                        <ul><li>drugs</li>
+                               <li>more drugs</li>
+                               <li>even more drugs</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="drugsInfo"></div>
+
+                </div>
+
+
+
+   </div><!-- /.container -->
 
 <div class="modal fade" id="login" tabindex="-1" role="dialog"
     aria-labelledby="registreer" aria-hidden="true">
@@ -73,6 +101,9 @@
         </div><!-- /.modal-dialog -->
     </div>
 </div>
+
+
+
 
    <script src="bootstrap/jquery-1.10.2.min.js"></script>
     <script src="bootstrap/bootstrap.min.js"></script>

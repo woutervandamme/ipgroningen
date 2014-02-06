@@ -8,8 +8,10 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="http://getbootstrap.com/assets/ico/favicon.ico">
 
+    <title>Starter Template for Bootstrap</title>
     <script src="https://code.jquery.com/jquery.js"></script>
-    <link href="http://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet">
+
+   <link href="http://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet">
     <link href="test.css" rel="stylesheet">
 </head>
 
@@ -39,14 +41,14 @@
                 class="nav
                 navbar-nav">
                     <li><a href="home.html">Home</a></li>
-                <li ><a href="info.html">Info</a></li>
-                <li><a href="medicin.html">Medicin</a></li>
+                <li ><a href="#">Info</a></li>
+                <li class="active"><a href="#">Medicin</a></li>
                 <li><a href="treatment.html">Treatment</a></li>
-                  <li  class="active"><a href="lifestyle.html">LifeStyle</a></li>
-                <li ><a href="care.html">Timetable</a></li>
+                  <li><a href="lifestyle.html">LifeStyle</a></li>
+                <li ><a href="care.html">Careplan</a></li>
                 <li ><a href="feedback.html">Feedback</a></li>
-                                <li ><a href="menu.html">Menu</a></li>
-
+                <li><a  data-toggle="modal"
+                    data-target="#login">Menu</a></li>
             </ul>
         </div>
 
@@ -54,13 +56,9 @@
 
 
     <div class="container">
-<div class="well">
-<p>no Smoke , no Drink , no Fun</p>
-</div>
 
-<h1>Do excercises!!</h1>
-        
-  </div><!-- /.container -->
+        <img src="images/careplan.png">
+    </div><!-- /.container -->
 
 <div class="modal fade" id="login" tabindex="-1" role="dialog"
     aria-labelledby="registreer" aria-hidden="true">
@@ -73,6 +71,9 @@
         </div><!-- /.modal-dialog -->
     </div>
 </div>
+
+
+
 
    <script src="bootstrap/jquery-1.10.2.min.js"></script>
     <script src="bootstrap/bootstrap.min.js"></script>
